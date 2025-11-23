@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="climate_title_main">Climate Control</string>
+    <string name="climate_label_ambient_temp">Outside: %1$d&#176;C</string>
+    <string name="climate_label_weather_sunny">Sunny</string>
+    <string name="climate_label_weather_fog">Fog</string>
+
+    <string name="climate_title_temperature_card">Temperature</string>
+    <string name="climate_button_cool">Cool</string>
+    <string name="climate_button_comfort">Comfort</string>
+    <string name="climate_label_target_temperature">%1$d&#176;C</string>
+
+    <string name="climate_title_fan_card">Fan &amp; Airflow</string>
+    <string name="climate_label_fan_speed">Fan Speed</string>
+    <string name="climate_label_fan_level">Level %1$d</string>
+    <string name="climate_label_airflow_dir">Airflow Direction</string>
+    <string name="climate_button_face_dir">Face</string>
+    <string name="climate_button_mixed_dir">Mixed</string>
+    <string name="climate_button_feet_dir">Feet</string>
+
+    <string name="climate_title_ac_card">A/C &amp; Air Source</string>
+    <string name="climate_toggle_ac">Air Conditioning</string>
+    <string name="climate_label_air_source">Air source</string>
+    <string name="climate_radio_air_source_recirculate">Recirculate</string>
+    <string name="climate_radio_air_source_fresh_air">Fresh Air</string>
+
+    <string name="climate_title_heating_card">Seat &amp; Steering Heating</string>
+    <string name="climate_label_seat_heat_driver">Driver Seat</string>
+    <string name="climate_label_seat_heat_passanger">Passenger Seat</string>
+    <string name="climate_radio_seat_heat_off">Off</string>
+    <string name="climate_radio_seat_heat_low">Low</string>
+    <string name="climate_radio_seat_heat_high">High</string>
+    <string name="climate_label_current_seat_heat">Currently: %1$s</string>
+    <string name="climate_toggle_steering_heat">Steering Wheel Heating</string>
+
+    <string name="climate_title_presets_card">Climate Presets</string>
+    <string name="climate_presets_title_cool_mode">Cool Mode</string>
+    <string name="climate_preset_cool">18&#176;C &#8226; AC On &#8226; High Fan</string>
+    <string name="climate_presets_title_warm_mode">Warm Mode</string>
+    <string name="climate_preset_warm">26&#176;C &#8226; Heat On &#8226; Medium Fan</string>
+    <string name="climate_presets_title_eco_mode">Eco Mode</string>
+    <string name="climate_preset_eco">22&#176;C &#8226; Auto &#8226; Low Fan</string>
+    <string name="climate_presets_title_auto_mode">Auto Mode</string>
+    <string name="climate_preset_auto">Smart Climate Control</string>
+
+    <string name="climate_title_quick_actions">Quick Actions</string>
+    <string name="climate_preset_action_defrost">Defrost</string>
+    <string name="climate_preset_action_maxac">Max A/C</string>
+    <string name="climate_preset_action_off">System Off</string>
+
+</resources>

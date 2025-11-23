@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IntelliAuto</string>
+    <string name="contact_list_hint">Contact list</string>
+    <string name="phone_book">Phone</string>
+    <string name="climate_control_hint">Climate control</string>
+    <string name="media_hint">Media</string>
+    <string name="media_player">Media Player</string>
+    <string name="intelliauto_text">IntelliAuto</string>
+1    <string name="not_implemented">Not implemented!</string>
+    <string name="contacts_book">Contacts book</string>
+    <string name="contact_book">Contact book</string>
+    <string name="media">Media</string>
+    <string name="radio">Online Radio</string>
+    <string name="climate">Climate</string>
+    <string name="map">Map</string>
+    <string name="app_name_compose">ComposeApp</string>
+    <string name="example_feature">Example Feature</string>
+    <string name="adas_feature">ADAS Feature</string>
+    <string name="system_status">System Status</string>
+    <string name="fuel_economy_display">Fuel Economy Display</string>
+    <string name="user_profiles_feature">User Profiles</string>
+    <string name="climate_control">Climate Control</string>
+    <string name="charging_history">Charging History</string>
+    <string name="charging_preferences_feature">Charging Preferences</string>
+    <string name="vcis_feature">Voice Control Integration Settings</string>
+</resources>
