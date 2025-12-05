@@ -87,15 +87,10 @@ fun FeaturesList(
 )
 @Composable
 fun GreetingPreview() {
-    FeaturesList(onFeatureClick = {}, selected = Feature.EXAMPLE_FEATURE)
+    FeaturesList(onFeatureClick = {}, selected = Feature.MAIN_SCREEN_FEATURE)
 }
 
 enum class Feature(@StringRes val resId: Int) {
-    EXAMPLE_FEATURE(R.string.example_feature),
-    ADAS_FEATURE(R.string.adas_feature),
-    CHARGING_PREFERENCES_FEATURE(R.string.charging_preferences_feature),
-    VEHICLE_STATUS_FEATURE(R.string.system_status),
-    CLIMATE_FEATURE(R.string.climate_control),
-    VCIS_FEATURE(R.string.vcis_feature),
-    USER_PROFILES_FEATURE(R.string.user_profiles_feature),
+    MAIN_SCREEN_FEATURE(R.string.main_screen_feature),
+    VCIS_FEATURE(R.string.vcis_feature)
 }

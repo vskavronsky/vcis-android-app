@@ -58,5 +58,5 @@ fun FeatureButton(
 @Preview(showSystemUi = true, widthDp = 100)
 @Composable
 fun PreviewMenuButton() {
-    FeatureButton(Feature.EXAMPLE_FEATURE)
+    FeatureButton(Feature.MAIN_SCREEN_FEATURE)
 }

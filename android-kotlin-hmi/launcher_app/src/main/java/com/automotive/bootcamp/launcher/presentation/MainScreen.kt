@@ -38,7 +38,7 @@ fun MainScreen() {
             .padding(WindowInsets.statusBars.asPaddingValues())
     ) {
 
-        var selectedFeature by rememberSaveable { mutableStateOf(Feature.EXAMPLE_FEATURE) }
+        var selectedFeature by rememberSaveable { mutableStateOf(Feature.MAIN_SCREEN_FEATURE) }
 
         FeaturesList(
             modifier = Modifier
@@ -49,7 +49,7 @@ fun MainScreen() {
         )
 
         FeaturesContainer(
-            onCloseFeature = { selectedFeature = Feature.EXAMPLE_FEATURE },
+            onCloseFeature = { selectedFeature = Feature.MAIN_SCREEN_FEATURE },
             modifier = Modifier
                 .weight(2f)
                 .fillMaxSize(),

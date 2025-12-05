@@ -21,10 +21,5 @@ dependencyResolutionManagement {
 
 include(":launcher_app")
 include(":common")
-include(":features:example")
-include(":features:chargingPreferences")
-include(":features:adas")
-include(":features:status")
-include(":features:climate")
+include(":features:main_screen")
 include(":features:vcis")
-include(":features:userprofiles")

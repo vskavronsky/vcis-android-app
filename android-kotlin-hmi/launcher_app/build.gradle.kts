@@ -120,13 +120,8 @@ hilt {
 dependencies {
     api(projects.common)
 
-    implementation(projects.features.example)
-    implementation(projects.features.adas)
-    implementation(projects.features.status)
-    implementation(projects.features.chargingPreferences)
-    implementation(projects.features.climate)
+    implementation(projects.features.mainScreen)
     implementation(projects.features.vcis)
-    implementation(projects.features.userprofiles)
 
     implementation(libs.bundles.androidx)
     implementation(libs.bundles.networking)

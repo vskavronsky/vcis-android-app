@@ -59,7 +59,7 @@ object VoiceSettingsModule {
     @Provides
     @Singleton
     fun provideVoiceSettingsRepository(
-        @Named("IPC") voiceCategoryDataSource: VoiceCategoryDataSource,
+        @Named("Mock") voiceCategoryDataSource: VoiceCategoryDataSource,
         voiceCommandDataSource: VoiceCommandDataSource
     ): VoiceSettingsRepository {
         return VoiceSettingsRepositoryImpl(
